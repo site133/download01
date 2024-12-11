@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>les livreurs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Ajout des meta tags pour le SEO et le partage social -->
+    <meta name="description" content="C1EURO - Service et shopping à seulement 1€">
+    <meta property="og:title" content="C1EURO">
+    <meta property="og:description" content="C1EURO - Service et shopping à seulement 1€">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="logo.svg" type="image/svg+xml">
+</head>
+<body class="min-h-screen bg-white">
+    <!-- Header -->
+    <header class="w-full py-6 border-b">
+        <div class="container mx-auto px-4 flex items-center">
+            <a href="https://les-livreurs.fr/" class="mr-4">
+                <div class="w-7 h-7 bg-gray-100 rounded-full flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+            </a>
+            <h1 class="text-xl font-medium text-gray-900">les livreurs</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-16">
+        <div class="max-w-lg mx-auto">
+            <div class="border-0 shadow-none">
+                <div class="text-center space-y-6">
+                   <div class="mx-auto" style="width: 160px; height: 160px;">
+                       <img 
+                        src="logo.svg"
+                        alt="C1EURO App"
+                        class="w-full h-full object-contain rounded-xl"
+                      />
+                </div>
+
+                    <h2 class="text-2xl font-medium text-gray-900">
+                        C1EURO
+                    </h2>
+                </div>
+                <div class="space-y-8">
+                    <p class="text-center text-gray-600 text-sm">
+                        Demande de livreur sur l'application C1EURO
+                    </p>
+
+                    <!-- QR Code -->
+                    <div class="flex justify-center items-center">
+                        <div class="text-center">
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <img 
+                                    src="qr-code.png"
+                                    alt="QR Code"
+                                    class="w-40 h-40"
+                                />
+                            </div>
+                            <p class="mt-3 text-xs text-gray-500">Scanner pour télécharger</p>
+                        </div>
+                    </div>
+
+                    <!-- Download Buttons -->
+                    <div class="space-y-3">
+                        <a 
+                            href="https://apps.apple.com/fr/app/c1euro/id6470069252"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="w-full bg-gray-900 hover:bg-gray-800 text-white px-4 py-2 rounded-lg flex items-center justify-center"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="7 10 12 15 17 10"/>
+                                <line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                            Télécharger pour iOS
+                        </a>
+                        <a 
+                            href="https://play.google.com/store/apps/details?id=com.c1euro.user&hl=ln"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="w-full bg-gray-100 hover:bg-gray-200 text-gray-900 px-4 py-2 rounded-lg flex items-center justify-center"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="7 10 12 15 17 10"/>
+                                <line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                            Télécharger pour Android
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
